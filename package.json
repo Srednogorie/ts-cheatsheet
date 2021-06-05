@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "./node_modules/typescript/bin/tsc",
     "build": "tsc",
-    "dev": "npx concurrently -k -n COMPILER,NODEMON -c yellow,blue \"tsc -w\" \"nodemon -w dist -q dist/classes.js\""
+    "dev": "npx concurrently -k -n COMPILER,NODEMON -c yellow,blue \"tsc -w\" \"nodemon -w dist -q dist/implementing_interfaces/index.js\""
   },
   "author": "",
   "license": "ISC",
