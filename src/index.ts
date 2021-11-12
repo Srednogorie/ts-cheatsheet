@@ -6,16 +6,17 @@ const a = 8;
 const b = 8;
 let array: Array<string> = [];
 function upperCase(str: string | null) {
-
+    console.log(str);
 }
 
-enum Color {
-    Red,
-    Green,
-    Blue
-}
-let myColor: Color = Color.Red
-console.log(Color[myColor]);
+upperCase("bla");
+// enum Color {
+//     Red,
+//     Green,
+//     Blue
+// }
+// let myColor: Color = Color.Red
+// console.log(Color[myColor]);
 
 // const email: HTMLElement | null = document.getElementById('email');
 // if (email) {
@@ -25,17 +26,17 @@ console.log(Color[myColor]);
 //     })
 // }
 
-console.log(`${a} * ${b} = ${multiplyModule.default(a, b)}`);
-console.log(`${a} * 2 = ${multiplyModule.multiplyByTwo(a)}`);
-
-interface Profile {
-    readonly name: string;
-    age?: number;
-}
-let Profile: Profile = {
-    name: "Sando"
-};
-Profile.age = 12;
-Profile.name = "Other Name";
+// console.log(`${a} * ${b} = ${multiplyModule.default(a, b)}`);
+// console.log(`${a} * 2 = ${multiplyModule.multiplyByTwo(a)}`);
+//
+// interface Profile {
+//     readonly name: string;
+//     age?: number;
+// }
+// let Profile: Profile = {
+//     name: "Sando"
+// };
+// Profile.age = 12;
+// Profile.name = "Other Name";
 
 
